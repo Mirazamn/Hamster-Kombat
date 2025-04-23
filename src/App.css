@@ -1,0 +1,125 @@
+/* Header */
+header h1 {
+  text-align: center;
+  padding: 35px 0;
+
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.props {
+  width: 150px;
+  height: 50px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+
+  padding: 8px 5px;
+  background: #32363C;
+  margin: 10px 0;
+  border-radius: 10px;
+}
+
+
+.props-container {
+  gap: 10px;
+}
+
+
+.props h3 {
+  font-size: 11px;
+  font-weight: 500;
+}
+
+
+.props p {
+  font-size: 11px;
+  font-weight: 600;
+}
+
+.padd {
+  padding: 0 0 7px 0;
+}
+
+
+/* Colors */
+.orange {
+  color: #F79841;
+}
+
+
+
+.purple {
+  color: #6F72E2;
+}
+
+
+.green {
+  color: #84CB69;
+}
+
+
+/* main h1 */
+.main-h1 h1{
+  font-size: 40px;
+  font-weight: 700;
+  padding: 10px 0 0 0;
+}
+
+
+.main-h1 {
+  gap: 10px;
+  padding: 34px 0 60px 0;
+}
+
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.main button {
+  background: transparent;
+  border: none;
+}
+
+
+/* Energy */
+.energy {
+  justify-content: space-between;
+  width: 350px;
+
+  padding: 40px 0 10px 0;
+}
+
+/* Footer */
+footer > .container {
+  background: #32363CB2;
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  border-radius: 12px;
+  margin: 30px 0 0 0;
+}
+
+
+footer .flex {
+  gap: 20px;
+  padding: 5px 10px;
+}
+
+
+ul .flex {
+  flex-direction: column;
+  align-items: center;
+  gap: 7px;
+
+  cursor: pointer;
+}
