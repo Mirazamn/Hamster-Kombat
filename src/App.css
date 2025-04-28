@@ -86,7 +86,13 @@ header h1 {
 
 .main button {
   background: transparent;
+  border-radius: 50%;
   border: none;
+}
+
+
+.main button:focus {
+  outline: none;
 }
 
 
@@ -122,4 +128,129 @@ ul .flex {
   gap: 7px;
 
   cursor: pointer;
+}
+
+/* Modal */
+.modal {
+  z-index: 999;
+  background: #2C2F35;
+  width: 380px;
+  left: 50%;
+  height: 60vh;
+  position: absolute;
+
+  /* opacity: 0.8; */
+  top: 210px;
+  border-radius: 20px;
+  box-shadow: 4px 4px 10px 5px #00000040;
+
+  border: 1px solid #8575756E;
+  transform: translateX(-50%);
+  padding: 30px;
+
+
+  .exit {
+    /* width: 100%;  */
+    display: flex;
+    justify-content: flex-end; 
+    
+    button {
+      background: transparent;
+      border: none;
+    }
+  }
+
+
+  .card {
+    justify-content: flex-start;
+    background: #32363C;
+    padding: 10px;
+    margin: 10px 0 0 0;
+    border-radius: 20px;
+    
+    main {
+      border-bottom: 0.3px solid #FFFFFF33;   
+      width: 100%;
+      padding: 0 0 10px 0;   
+    }
+
+
+    .card-txt .flex {
+      gap: 0;
+    }
+    
+    .flex {
+      gap: 20px;
+      justify-content: flex-start;
+    }
+
+    .level {
+      padding: 5px 20px;
+
+      h5 {
+        padding: 0 20px 0 0;
+        height: 30px;
+
+        display: flex;
+        align-items: center;
+        border-right: 0.3px solid #FFFFFF33;
+      }
+
+    }
+  }
+}
+
+
+.earn {
+  background: #2C2F35;
+  border: 1px solid #8575756E;
+  box-shadow: 4px 4px 10px 5px #00000040;
+  border-radius: 20px;
+  padding: 30px 22px;
+  position: absolute;
+
+  z-index: 999;
+
+  .exit {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+    button {
+      background: transparent;
+      border: none;
+    }
+  }
+
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+
+    padding: 20px 0;
+  }
+
+
+  .flex {
+    align-items: center;
+  }
+
+  .card {
+    background: #32363C;
+    padding: 5px 20px;
+    border-radius: 20px;
+    width: 190px;
+
+    h6 {
+      padding: 0 10px 0 0;
+      border-right: 0.3px solid #FFFFFF33;
+      height: 20px;
+
+      display: flex;
+      align-items: center;
+    }
+
+  }
 }
